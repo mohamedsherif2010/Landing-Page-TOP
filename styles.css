@@ -2,6 +2,7 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Roboto, sans-serif;
 }
 
 ul, h1, p{
@@ -105,4 +106,43 @@ button{
 
 .placeholder p{
     align-self: center;
+}
+
+img{
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    padding: 5px 20px 70px;
+    align-items: center;
+}
+
+.cards{
+    flex: 1;
+    display: flex;
+    /* gap: 30px; */
+    /* padding: 20px; */
+    flex-wrap: wrap;
+}
+
+.card{
+    /* border: 1px solid red; */
+    flex: 1;
+    padding: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    max-width:min-content;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }

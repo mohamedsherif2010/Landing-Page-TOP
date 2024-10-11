@@ -146,3 +146,23 @@ img{
     color: #1F2937;
     font-weight: 900;
 }
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px 0px 70px;
+    /* border: 1px solid red; */
+}
+
+.quote.text{
+    font-size:36px;
+    font-style: oblique;
+    color: #1F2937;
+}
+
+.quote.author{
+    align-self:flex-end;
+    padding: 0 0 70px;
+    font-weight: bold;
+}
